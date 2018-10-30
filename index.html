@@ -1,0 +1,415 @@
+ <!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+    <title>Bootstrap Instagram</title>
+  </head>
+  <body style="background-color:#cce0ff;">
+        <!-- Image and text -->
+        <div>
+          <nav class="navbar navbar-light" style="position:strucky; background-color:#003d99;">
+              <a class="navbar-brand"  style=" font-family: 'Kaushan Script', cursive; font-size:30px;color:white;text-shadow: 5px 6px 2px #000000;"href="#">
+                <img src="http://pngimg.com/uploads/instagram/instagram_PNG9.png" width="40" height="40" class="d-inline-block align-top" alt="">
+                    Instagram
+              </a>
+                  <!-- Button trigger modal -->
+              <div class="btn-group">
+               <div>
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal" role="button" style="margin:4px;">Create a new post</button>
+                </div>
+            <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="width:100%;">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        
+                      <div class="label">
+                        <label for="message-text" class="col-form-label"></label>
+                        <textarea class="form-control" id="message-text" style="width:95%; margin-left: auto;margin-right: auto;border:1px solid black;"></textarea>
+                      </div>
+                       <a class="nav-link" href="#"><i class="fas fa-camera" style="color:#242429;"></i>     <i class="fas fa-map-marker-alt" 
+                       style="color:#242429;"></i></i></a>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal" style="background:#f8f9fa; color:black;">Cancel</button>
+                        <button type="button" class="btn btn-success">Publish</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                            <!--button-dropdown-->
+                <div>
+                <button class="btn btn-secondary btn-lg dropdown-toggle p-2" style="background:#003d99; color:white; border:none;" 
+                      type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-cog fa-spin"></i>
+                </button>
+                
+               <div class="dropdown-menu">
+                   <a class="dropdown-item" href="#">Action</a>
+                   <a class="dropdown-item" href="#">Another action</a>
+                   <a class="dropdown-item" href="#">Something else here</a>
+                   <div class="dropdown-divider"></div>
+                   <a class="dropdown-item" href="#">Log Out</a>
+               </div>
+              </div>
+          </nav>
+          </div style="background-color:#cce0ff;">
+                <div class="navbar justify-content-center my-0 py-3 mx-0" style="background-color: #cce0ff;">      
+                <ul class="nav  nav-pills "  id="myTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"><i class="fas fa-square"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false"><i class="fas fa-th"></i></a>
+                    </li>
+                </ul>
+                </div>
+      <div class="container" style="max-width:100%;">
+                
+            <div class="tab-content" id="myTabContent">
+                  <!--left side-->
+                  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <div class="row justify-content-center" style="margin-top: 30px; width:55%; margin-left:auto; margin-right:auto;display:block;">
+                            <div class="card">
+                                    <!--card title-->
+                                <div class="row" >
+                                    <div class="col-sm-6 pt-3 pl-4">
+                                        <h5 class="font-weight-bold">Art History: Discovering Dali!!!</h5>
+                                    </div>
+                                    <div class="col-sm-6 text-right pt-3">
+                                        <p class="text-black-50 pr-3">14/10</p>
+                                    </div>
+                                </div>
+                              
+                              <img class="card-img-top" src="http://image.digitalinsightresearch.in/Uploads/ImageLibrary/Active/2016Q3/designcurial/moco-dali.png" alt="Card image cap">
+                              <div class="card-body">
+                                <h5 class="card-title"><strong>7,381 likes</strong></h5>
+                                <p class="card-text"><strong>salvadordali_art.</strong>Thank you so much for 100k, thank you so much for loving art
+                                <img alt="Me gusta relleno icon" src="https://png.icons8.com/color/2x/filled-like.png" lazy="loaded" style="height: 30px; width: 30px;"></i></p>
+                                <!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
+                                <div class="row">
+                                    <div class="col-sm-2">
+                                     <i class="far fa-heart"></i>
+                                    </div>
+                                    <div class="col-sm-8">
+                                        Comment
+                                    </div>
+                                    <div class="col-sm-2 text-right">
+                                        <i class="fas fa-ellipsis-v"></i>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                            
+                              <div class="card" style="margin-top: 40px;">
+                                    <!--card title-->
+                                <div class="row">
+                                    <div class="col-sm-6 pt-3 pl-4">
+                                        <h5 class="font-weight-bold">Salvador Dali with his “Soft Self-Portrait with Fried!!!</h5>
+                                    </div>
+                                    <div class="col-sm-6 text-right pt-3">
+                                        <p class="text-black-50 pr-3">11/10</p>
+                                    </div>
+                                </div>
+                              
+                              <img class="card-img-top" src="https://i.pinimg.com/originals/d3/b6/41/d3b6411b4c7274feba12d1821bb2a77b.png" alt="Card image cap">
+                              <div class="card-body">
+                                <h5 class="card-title"><strong>3,118 likes</strong></h5>
+                                <p class="card-text"><strong>salvadordali_art.</strong>There’s plenty of overlap between the worlds of art and food.
+                                <img alt="Me gusta relleno icon" src="https://png.icons8.com/color/2x/ok-hand.png" lazy="loaded" style="height: 30px; width: 30px;"></i></p>
+                                <!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
+                                <div class="row">
+                                    <div class="col-sm-2">
+                                     <i class="far fa-heart"></i>
+                                    </div>
+                                    <div class="col-sm-8">
+                                        Comment
+                                    </div>
+                                    <div class="col-sm-2 text-right">
+                                        <i class="fas fa-ellipsis-v"></i>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                       
+                              <div class="card" style="margin-top: 40px;">
+                                    <!--card title-->
+                                <div class="row">
+                                    <div class="col-sm-6 pt-3 pl-4">
+                                        <h5 class="font-weight-bold">Dalí ohromuje Paříž!!!</h5>
+                                    </div>
+                                    <div class="col-sm-6 text-right pt-3">
+                                        <p class="text-black-50 pr-3">12/11</p>
+                                    </div>
+                                </div>
+                              
+                              <img class="card-img-top" src="https://www.topzine.cz/wp-content/uploads/2013/02/dali-salvador.jpg" alt="Card image cap">
+                              <div class="card-body">
+                                <h5 class="card-title"><strong>6,332 likes</strong></h5>
+                                <p class="card-text"><strong>salvadordali_art.</strong>It represents the story collected in the Golden Legend....
+                                <img alt="Me gusta relleno icon" src="https://png.icons8.com/color/2x/cool.png" lazy="loaded" style="height: 30px; width: 30px;"></i></p>
+                                <!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
+                                <div class="row">
+                                    <div class="col-sm-2">
+                                     <i class="far fa-heart"></i>
+                                    </div>
+                                    <div class="col-sm-8">
+                                        Comment
+                                    </div>
+                                    <div class="col-sm-2 text-right">
+                                        <i class="fas fa-ellipsis-v"></i>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                             
+                             <div class="card" style="margin-top: 40px;">
+                                    <!--card title-->
+                                <div class="row">
+                                    <div class="col-sm-6 pt-3 pl-4">
+                                        <h5 class="font-weight-bold">The Objective!!!</h5>
+                                    </div>
+                                    <div class="col-sm-6 text-right pt-3">
+                                        <p class="text-black-50 pr-3">14/10</p>
+                                    </div>
+                                </div>
+                              
+                              <img class="card-img-top" src="https://storage.googleapis.com/theobj-wp-media/2017/10/el-retrato-de-la-senora-james-reeves-de-dali-ha-sido-recuperado-en-el-libano-2.jpg" alt="Card image cap">
+                              <div class="card-body">
+                                <h5 class="card-title"><strong>15,381 likes</strong></h5>
+                                <p class="card-text"><strong>salvadordali_art.</strong>I never knew about this picture, it makes me really happy. Thank you!...
+                                <img alt="Me gusta relleno icon" src="https://png.icons8.com/color/2x/comedy.png" lazy="loaded" style="height: 30px; width: 30px;"></i></p>
+                                <!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
+                                <div class="row">
+                                    <div class="col-sm-2">
+                                     <i class="far fa-heart"></i>
+                                    </div>
+                                    <div class="col-sm-8">
+                                        Comment
+                                    </div>
+                                    <div class="col-sm-2 text-right">
+                                        <i class="fas fa-ellipsis-v"></i>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                             
+                             <div class="card" style="margin-top: 40px;">
+                                    <!--card title-->
+                                <div class="row">
+                                    <div class="col-sm-6 pt-3 pl-4">
+                                        <h5 class="font-weight-bold">Sometimes I talk to myself!!!</h5>
+                                    </div>
+                                    <div class="col-sm-6 text-right pt-3">
+                                        <p class="text-black-50 pr-3">14/10</p>
+                                    </div>
+                                </div>
+                              
+                              <img class="card-img-top" src="https://reports.idiomasblendex.com/wp-content/uploads/2017/09/dali_frente_a_un_espejo_en_1964_5339_863x647.jpg" alt="Card image cap">
+                              <div class="card-body">
+                                <h5 class="card-title"><strong>12,381 likes</strong></h5>
+                                <p class="card-text"><strong>salvadordali_art.</strong>Thank you so much for 100k, thank you so much for loving art
+                                <img alt="Me gusta relleno icon" src="https://png.icons8.com/color/2x/surprised.png" lazy="loaded" style="height: 30px; width: 30px;"></i></p>
+                                <!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
+                                <div class="row">
+                                    <div class="col-sm-2">
+                                     <i class="far fa-heart"></i>
+                                    </div>
+                                    <div class="col-sm-8">
+                                        Comment
+                                    </div>
+                                    <div class="col-sm-2 text-right">
+                                        <i class="fas fa-ellipsis-v"></i>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                             
+                             <div class="card" style="margin-top: 40px;">
+                                    <!--card title-->
+                                <div class="row">
+                                    <div class="col-sm-6 pt-3 pl-4">
+                                        <h5 class="font-weight-bold">The Persistence of Memory!!!</h5>
+                                    </div>
+                                    <div class="col-sm-6 text-right pt-3">
+                                        <p class="text-black-50 pr-3">14/10</p>
+                                    </div>
+                                </div>
+                              
+                              <img class="card-img-top" src="https://vignette.wikia.nocookie.net/fatecespanol/images/3/32/Salvador_Dal%C3%AD_.png/revision/latest?cb=20111108001705" alt="Card image cap">
+                              <div class="card-body">
+                                <h5 class="card-title"><strong>9,381 likes</strong></h5>
+                                <p class="card-text"><strong>salvadordali_art.</strong>The look is something that goes beyond when it comes out of the soul.....
+                                <img alt="Me gusta relleno icon" src="https://png.icons8.com/color/2x/art-prices.png" lazy="loaded" style="height: 30px; width: 30px;"></i></p>
+                                <!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
+                                <div class="row">
+                                    <div class="col-sm-2">
+                                     <i class="far fa-heart"></i>
+                                    </div>
+                                    <div class="col-sm-8">
+                                        Comment
+                                    </div>
+                                    <div class="col-sm-2 text-right">
+                                        <i class="fas fa-ellipsis-v"></i>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                             
+                             <div class="card" style="margin-top: 40px;">
+                                    <!--card title-->
+                                <div class="row">
+                                    <div class="col-sm-6 pt-3 pl-4">
+                                        <h5 class="font-weight-bold">Curiosities and extravagances!!!</h5>
+                                    </div>
+                                    <div class="col-sm-6 text-right pt-3">
+                                        <p class="text-black-50 pr-3">14/10</p>
+                                    </div>
+                                </div>
+                              
+                              <img class="card-img-top" src="https://www.laprensa.hn/csp/mediapool/sites/dt.common.streams.StreamServer.cls?STREAMOID=F$7UkLJgGKTbUxPj1qCFcs$daE2N3K4ZzOUsqbU5sYtjQtDNSY$mE0Qy7$EYYZKC6FB40xiOfUoExWL3M40tfzssyZqpeG_J0TFo7ZhRaDiHC9oxmioMlYVJD0A$3RbIiibgT65kY_CSDiCiUzvHvODrHApbd6ry6YGl5GGOZrs-&CONTENTTYPE=image/jpeg" alt="Card image cap">
+                              <div class="card-body">
+                                <h5 class="card-title"><strong>7,381 likes</strong></h5>
+                                <p class="card-text"><strong>salvadordali_art.</strong>When you have a good friend.....
+                                <img alt="Me gusta relleno icon" src="https://png.icons8.com/color/2x/filled-like.png" lazy="loaded" style="height: 30px; width: 30px;"></i></p>
+                                <!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
+                                <div class="row">
+                                    <div class="col-sm-2">
+                                     <i class="far fa-heart"></i>
+                                    </div>
+                                    <div class="col-sm-8">
+                                        Comment
+                                    </div>
+                                    <div class="col-sm-2 text-right">
+                                        <i class="fas fa-ellipsis-v"></i>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                             
+                             <div class="card" style="margin-top: 40px;">
+                                    <!--card title-->
+                                <div class="row">
+                                    <div class="col-sm-6 pt-3 pl-4">
+                                        <h5 class="font-weight-bold">Des signes de la maladie de Parkinson!!!</h5>
+                                    </div>
+                                    <div class="col-sm-6 text-right pt-3">
+                                        <p class="text-black-50 pr-3">11/10</p>
+                                    </div>
+                                </div>
+                              
+                              <img class="card-img-top" src="http://s1.lprs1.fr/images/2017/01/02/6514377_1-0-943117318_1000x625.jpg" alt="Card image cap">
+                              <div class="card-body">
+                                <h5 class="card-title"><strong>9,381 likes</strong></h5>
+                                <p class="card-text"><strong>salvadordali_art.</strong>Painting....
+                                <img alt="Me gusta relleno icon" src="https://png.icons8.com/color/2x/filled-like.png" lazy="loaded" style="height: 30px; width: 30px;"></i></p>
+                                <!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
+                                <div class="row">
+                                    <div class="col-sm-2">
+                                     <i class="far fa-heart"></i>
+                                    </div>
+                                    <div class="col-sm-8">
+                                        Comment
+                                    </div>
+                                    <div class="col-sm-2 text-right">
+                                        <i class="fas fa-ellipsis-v"></i>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                            
+                            <div class="card" style="margin-top: 40px;">
+                                    <!--card title-->
+                                <div class="row">
+                                    <div class="col-sm-6 pt-3 pl-4">
+                                        <h5 class="font-weight-bold">In action!!!</h5>
+                                    </div>
+                                    <div class="col-sm-6 text-right pt-3">
+                                        <p class="text-black-50 pr-3">14/10</p>
+                                    </div>
+                                </div>
+                              
+                              <img class="card-img-top" src="http://personajeshistoricos.com/wp-content/uploads/2018/03/salvador-dali-4.jpg" alt="Card image cap">
+                              <div class="card-body">
+                                <h5 class="card-title"><strong>47,381 likes</strong></h5>
+                                <p class="card-text"><strong>salvadordali_art.</strong>One of the best expressions of surrealism......
+                                <img alt="Me gusta relleno icon" src="https://png.icons8.com/color/2x/surprised.png" lazy="loaded" style="height: 30px; width: 30px;"></i></p>
+                                <!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
+                                <div class="row">
+                                    <div class="col-sm-2">
+                                     <i class="far fa-heart"></i>
+                                    </div>
+                                    <div class="col-sm-8">
+                                        Comment
+                                    </div>
+                                    <div class="col-sm-2 text-right">
+                                        <i class="fas fa-ellipsis-v"></i>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                            
+                            
+                        </div>    
+                  </div>
+                  <!--right side-->
+                  <div class="tab-pane fade mx-0" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                       
+                         <div class="row" >
+                             <div class="col-md-4 pr-1">
+                              <img src="http://image.digitalinsightresearch.in/Uploads/ImageLibrary/Active/2016Q3/designcurial/moco-dali.png" width="100%" height="300px"></img>
+                            </div>
+                            <div class="col-md-4 px-1">
+                              <img src="https://i.pinimg.com/originals/d3/b6/41/d3b6411b4c7274feba12d1821bb2a77b.png" width="100%" height="300px"></img>
+                            </div>
+                            <div class="col-md-4 pl-1">
+                              <img src="https://www.topzine.cz/wp-content/uploads/2013/02/dali-salvador.jpg" width="100%" height="300px"></img>
+                            </div>
+                        </div>
+                        <div class="row my-2">
+                             <div class="col-sm-4 pr-1">
+                              <img src="https://storage.googleapis.com/theobj-wp-media/2017/10/el-retrato-de-la-senora-james-reeves-de-dali-ha-sido-recuperado-en-el-libano-2.jpg" width="100%" height="300px" ></img>
+                            </div>
+                            <div class="col-sm-4 px-1">
+                              <img src="https://reports.idiomasblendex.com/wp-content/uploads/2017/09/dali_frente_a_un_espejo_en_1964_5339_863x647.jpg" width="100%" height="300px"></img>
+                            </div>
+                            <div class="col-sm-4 pl-1">
+                              <img src="https://vignette.wikia.nocookie.net/fatecespanol/images/3/32/Salvador_Dal%C3%AD_.png/revision/latest?cb=20111108001705" width="100%" height="300px"></img>
+                            </div>
+                        </div>
+                        <div class="row">
+                             <div class="col-sm-4 pr-1">
+                              <img src="https://www.laprensa.hn/csp/mediapool/sites/dt.common.streams.StreamServer.cls?STREAMOID=F$7UkLJgGKTbUxPj1qCFcs$daE2N3K4ZzOUsqbU5sYtjQtDNSY$mE0Qy7$EYYZKC6FB40xiOfUoExWL3M40tfzssyZqpeG_J0TFo7ZhRaDiHC9oxmioMlYVJD0A$3RbIiibgT65kY_CSDiCiUzvHvODrHApbd6ry6YGl5GGOZrs-&CONTENTTYPE=image/jpeg" width="100%" height="300px" ></img>
+                            </div>
+                            <div class="col-sm-4 px-1">
+                              <img src="http://s1.lprs1.fr/images/2017/01/02/6514377_1-0-943117318_1000x625.jpg" width="100%" height="300px"></img>
+                            </div>
+                            <div class="col-sm-4 pl-1">
+                              <img src="http://personajeshistoricos.com/wp-content/uploads/2018/03/salvador-dali-4.jpg" width="100%" height="300px"></img>
+                            </div>
+                        </div>
+                    
+                  </div>
+                  <!--<div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>-->
+            </div>
+                
+                
+                
+      </div>
+                             
+              
+                  
+                  
+                  
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
